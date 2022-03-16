@@ -1,7 +1,28 @@
 
 
 
-.container-fluid{
-    display:flex;
-    
+
+.collapse .navbar-collapse{
+   display:flex
+}
+.nav-item {
+    display:inline;
+    flex-basis: 10%;
+    justify-content:space-around;
+    width: 1920px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    font: size 3rem;
+}
+.navbtn1{
+   color:aqua
+}
+.navbtn2{
+    background-color:aqua;
+    color:white;
+
+}
+ul{
+  justify-content:space-around;
 }
