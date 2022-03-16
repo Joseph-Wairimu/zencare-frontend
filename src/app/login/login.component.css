@@ -1,6 +1,6 @@
 .login{
     position: absolute;
-    width: 33rem;
+    width: 30rem;
     height: 24rem;
     left: 22rem;
     top: 6rem;   
@@ -15,4 +15,37 @@
     height: 3rem;
     left: 12rem;
     top: 0.5rem;
+}
+.form{
+    position: absolute;
+    top: 6rem;
+}
+.input{
+    background-color: #f4f4f4;
+}
+
+button{
+    background-color: #60B0F4;
+    position: absolute;
+    width: 25rem;
+    height: 2.5rem;
+    left: 1.3rem;
+    top: 10rem;
+    
+    background: #60B0F4;
+    border-radius: 4px;
+}
+.signup{
+    height: 2.5rem;
+    top: 3rem;
+    margin-left: 0.5rem;
+}
+.form-div{
+    
+    height: 15rem;
+}
+input{
+    width: 26rem;
+    height: 2rem;
+   margin-left: 1rem;
 }
