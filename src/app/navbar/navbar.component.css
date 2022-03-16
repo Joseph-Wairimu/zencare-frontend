@@ -1,27 +1,36 @@
 
-
-
-
-.collapse .navbar-collapse{
-   display:flex
-}
-.nav-item {
-    display:inline;
-    flex-basis: 10%;
-    justify-content:space-around;
-    width: 1920px;
+ul {
+    margin-left: 40%;
+    display:flex;
+    width: auto;
     height: 83px;
     left: 0px;
     top: 0px;
     font: size 3rem;
+    
+}
+ul li{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:black
 }
 .navbtn1{
-   color:aqua
+   color:aqua;
+   width: 100px;
+   height: 40px;
+   font: size 3rem;
 }
 .navbtn2{
+    font: size 3rem;
     background-color:aqua;
     color:white;
-
+    width: 100px;
+    height: 40px;
 }
 ul{
   justify-content:space-around;
