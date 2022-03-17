@@ -6,19 +6,19 @@
     margin-top: 0%;
 }
 .container{
-    width: 794px;
-   height: 439px;
+    width: 700px;
+   height: 400px;
    left: 27px;
    top: 265px;
 
     /* color:black */
 }
-#container{
+#image{
    /* background-color:black ; */
    width: 843px;
 height: 650px;
-left: 960px;
-top: 215px;
+left: 300px; 
+
 
 }
 h1{
