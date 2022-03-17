@@ -1,4 +1,66 @@
 .serve{
 
-    margin: 10rem 4rem;
+    margin: 0 5rem;
+}
+.service{
+    display:flex;
+}
+.pic{
+    margin: 0.5rem;
+    background-color: #fff;
+    border: 2px solid rgb(248, 243, 243);
+    border-radius: 1rem;
+    width: 12rem;
+   justify-content: center;
+   box-shadow: 1px 3px 0 0 grey;
+}
+
+.pic-row{
+
+    display:flex;
+}
+
+.pic-roww{
+
+    display:flex; 
+}
+/* img{
+    width: 12rem;
+} */
+
+.picture{
+    margin-left: 6rem;
+}
+.serve h4 span{
+    font-size: 1.5rem;
+   
+}
+.serve h4{
+    padding: .6rem;
+    margin: 0;
+}
+.serve h1{
+    padding: 0;
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.serve p{
+    line-height: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 2rem;
+}
+.pic img{
+    width: 80%;
+    margin-left: 1rem;
+}
+.text{
+    text-align: center;
+}
+.text h3,h6{
+    margin: .3rem;
+    padding: .3rem;
 }
