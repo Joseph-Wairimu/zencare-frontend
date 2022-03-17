@@ -31,12 +31,12 @@
 .picture{
     margin-left: 6rem;
 }
-.serve h4 span{
-    font-size: 1.5rem;
+.serve h2 span{
+    font-size: 2.5rem;
    
 }
-.serve h4{
-    padding: .6rem;
+.serve h2{
+    padding: .3rem;
     margin: 0;
 }
 .serve h1{
