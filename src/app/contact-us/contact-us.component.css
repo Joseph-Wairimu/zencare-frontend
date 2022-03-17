@@ -1,0 +1,39 @@
+.con{
+
+    background-color: #60B0F4;
+    position: absolute;
+    width: 35rem;
+     height: 42rem;
+     left: 0px;
+     top: 0px;
+
+  
+}
+.contact{
+    display: flex;
+}
+.img1{
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 1.5rem;
+    top: 1rem;
+    background-color: black;
+}
+.img2{
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 20rem;
+    top: 14.2rem;
+    background-color: black;
+}
+.img3{
+
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 1.5rem;
+    top: 28rem;
+    background-color: black;
+}
