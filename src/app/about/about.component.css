@@ -1,12 +1,31 @@
 
 
 .container-fluid{
-    display: block;
+    color: #435589;
 
 }
+.headp{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 109px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.container-box{
+    display: flex;
+    justify-content: center
+}
 .box{
-    width: 420px;
-   height: 405px;
-   left: 1422px;
-   top: 446px;
+   width: 420px;
+   height: 405px; 
+   border: 1px solid;
+   margin:1%;
+   align-items: center
+
+}
+.box p{
+    text-align: center
 }
