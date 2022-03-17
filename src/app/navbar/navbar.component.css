@@ -9,6 +9,9 @@ ul {
   font: size 3rem;
   
 }
+.container-fluid{
+  margin-top: 0%;
+}
 ul li{
   text-transform: uppercase;
   text-decoration: none;
@@ -27,9 +30,9 @@ ul li a{
 }
 .navbtn2{
   cursor:pointer;
-  font: size 3rem;
+  font: size 4rem;
   background-color:aqua;
-  color:white;
+  color:black;
   width: 100px;
   height: 40px;
 }

@@ -3,4 +3,8 @@
 footer{
     display:flex;
     justify-content:space-between;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }

@@ -7,9 +7,16 @@
 .headp{
     font-family: 'Nunito';
 font-style: normal;
-font-weight: 500;
-font-size: 50px;
+font-weight: 300;
+font-size: 70px;
 text-align: center;
+}
+.head h1{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+
 }
 .container-box{
     display: flex;
@@ -19,7 +26,9 @@ text-align: center;
     text-align: center
 }
 .head p{
-    text-align: center
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
 }
 .box{
    width: 420px;
@@ -27,7 +36,7 @@ text-align: center;
    border: 1px solid;
    margin:1%;
    align-items: center
-
+   
 }
 .box p{
     text-align: center
