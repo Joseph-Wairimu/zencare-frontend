@@ -9,14 +9,18 @@
 font-style: normal;
 font-weight: 500;
 font-size: 50px;
-line-height: 109px;
-display: flex;
-align-items: center;
+
 text-align: center;
 }
 .container-box{
     display: flex;
     justify-content: center
+}
+.head{
+    text-align: center
+}
+.head p{
+    text-align: center
 }
 .box{
    width: 420px;
