@@ -1,59 +1,75 @@
-
-
-.container-fluid{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0%;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
 }
-.container{
-    width: 700px;
-   height: 400px;
-   left: 27px;
-   top: 265px;
 
-    /* color:black */
+.main {
+    margin-top: 1.8rem;
+    padding: .5rem;
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin-inline: auto;
+    max-width: 1200px;
 }
-#image{
-   /* background-color:black ; */
-   width: 843px;
-height: 650px;
-left: 300px; 
 
-
-}
-h1{
-    margin-bottom: 0%;
-}
-h2{
-    margin-bottom: 0%;
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 800;
-font-size: 96px;
-}
-h2 span{
+.main-title span {
     color: #60B0F4;
 }
-p{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 800;
-     font-size: 36px;
-    /* line-height: 49px; */
+
+.main-title h3 {
+    font-size: 1.5rem;
 }
-.btn button{
- background-color:#60B0F4;
- font-family: 'Nunito';
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 41px;
-display: flex;
-align-items: center;
-text-align: center;
-border-radius: 18px;
-padding:1%;
-color: #FFFFFF;
-margin-left: 73px;
-cursor: pointer;
+
+.main-title h1 {
+    font-size: 2.5rem;
+}
+
+.main-title h4 {
+    font-size: 1.1rem;
+}
+
+.main-title button {
+    margin-block: 1rem;
+    background-color: #60B0F4;
+    border: 1px solid #60B0F4;
+    padding: .5rem 1rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.main-title button:hover {
+    background-color: hsl(208, 87%, 77%);
+    border: 1px solid hsl(208, 87%, 77%);
+    transition: 0.3s ease-in-out;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+@media (min-width:1024px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+    .main-title h3 {
+        font-size: 2rem;
+    }
+    .main-title h1 {
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+        font-weight: 700;
+    }
+    .main-title h4 {
+        font-size: 1.2rem;
+        padding-right: 4rem;
+    }
+    .main-title button {
+        margin-top: 3rem;
+    }
 }

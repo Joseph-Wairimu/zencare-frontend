@@ -1,8 +1,45 @@
-footer{
-    display:flex;
-    justify-content:space-between;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footerr {
+    padding: 0 .5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-love {
+    padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copy h2 {
+    font-size: .8rem;
+}
+
+.footer-love h2 {
+    font-size: .8rem;
+}
+
+.footer-love img {
+    height: 1.5rem;
+    padding-left: .2rem;
+}
+
+@media (min-width:568px) {
+    .footerr {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

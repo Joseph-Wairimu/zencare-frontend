@@ -1,66 +1,79 @@
-.serve{
-
-    margin: 0 5rem;
-}
-.service{
-    display:flex;
-}
-.pic{
-    margin: 0.5rem;
-    background-color: #fff;
-    border: 2px solid rgb(248, 243, 243);
-    border-radius: 1rem;
-    width: 12rem;
-   justify-content: center;
-   box-shadow: 1px 3px 0 0 grey;
-}
-
-.pic-row{
-
-    display:flex;
-}
-
-.pic-roww{
-
-    display:flex; 
-}
-/* img{
-    width: 12rem;
-} */
-
-.picture{
-    margin-left: 6rem;
-}
-.serve h2 span{
-    font-size: 2.5rem;
-   
-}
-.serve h2{
-    padding: .3rem;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
     margin: 0;
-}
-.serve h1{
     padding: 0;
-    margin: 0;
-    font-size: 1.8rem;
-    line-height: 1.2rem;
-    white-space: nowrap;
-    overflow: hidden;
+    box-sizing: border-box;
 }
-.serve p{
-    line-height: 1.3rem;
-    overflow: hidden;
-    white-space: nowrap;
-    margin-top: 2rem;
+
+body {
+    font-family: 'Nunito', sans-serif;
 }
-.pic img{
-    width: 80%;
-    margin-left: 1rem;
+
+.health {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.text{
+
+.health-title {
+    margin-block: 1rem;
+}
+
+.health-title h3 {
+    color: #435589;
+    font-size: 1.5rem;
+}
+
+.health-title h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.card-box-health {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+}
+
+.card-one-health {
+    margin-block: .5rem;
+    padding: .5rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius: .5rem;
+    width: 200px;
     text-align: center;
 }
-.text h3,h6{
-    margin: .3rem;
-    padding: .3rem;
+
+.card-one-health p {
+    font-size: .8rem;
+}
+
+.card-one-health-image {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.card-one-health-image img {
+    height: 5rem;
+}
+
+@media (min-width:610px) {
+    .card-box-health {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .healthh {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-box-health {
+        column-gap: .5rem;
+    }
 }
