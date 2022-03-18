@@ -1,0 +1,98 @@
+.con{
+
+    background-color: #60B0F4;
+    position: absolute;
+    width: 35rem;
+     height: 41rem;
+     left: 0px;
+     top: 0px;
+
+  
+}
+
+.img1{
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 1.5rem;
+    top: 1rem;
+    background-color: rgb(252, 252, 252);
+}
+.img2{
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 20rem;
+    top: 14rem;
+    background-color: rgb(252, 252, 252);
+}
+.img3{
+
+    position: absolute;
+    width: 15rem;
+    height: 13rem;
+    left: 1.5rem;
+    top: 27rem;
+    background-color: rgb(252, 252, 252);
+}
+.con-head{
+color: black;
+ 
+}
+#us{
+    position: absolute;
+width: 742px;
+height: 140px;
+left: 600px;
+top: 55px;
+
+}
+.text{
+    position: absolute;
+width: 270px;
+height: 57px;
+left: 600px;
+top: 180px;
+background-color: #f4f4f4;
+}
+.email{
+
+    position: absolute;
+    width: 370px;
+    height: 57px;
+    left: 880px;
+    top: 180px;
+    background-color: #f4f4f4 
+    
+
+}
+.message{
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    left: 600px;
+    top: 250px;
+    background: #EBE9E9;
+    border-radius: 10px;
+}
+::placeholder {
+    color: black;
+    font-weight: lighter;
+  }
+
+  button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 600px;
+    top: 470px;
+    background-color: #60B0F4;
+    border-radius: 10px;
+  }  
+input{
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.health {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-title {
+    margin-block: 1rem;
+}
+
+.health-title h3 {
+    color: #435589;
+    font-size: 1.5rem;
+}
+
+.health-title h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.card-box-health {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+}
+
+.card-one-health {
+    margin-block: .5rem;
+    padding: .5rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius: .5rem;
+    width: 200px;
+    text-align: center;
+}
+
+.card-one-health p {
+    font-size: .8rem;
+}
+
+.card-one-health-image {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.card-one-health-image img {
+    height: 5rem;
+}
+
+@media (min-width:610px) {
+    .card-box-health {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .healthh {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-box-health {
+        column-gap: .5rem;
+    }
+}
